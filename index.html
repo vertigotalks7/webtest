@@ -1,69 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ammachi Dashboard</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body class="bg-gradient-to-b from-blue-100 to-blue-200 min-h-screen px-4 py-6">
-    <!-- Ammachi Type Selector -->
-    <div class="w-full overflow-x-auto flex gap-4 pb-4">
-      <div class="min-w-[120px] h-[140px] flex flex-col items-center justify-center rounded-2xl shadow-md p-3 bg-white hover:bg-blue-400 hover:text-white cursor-pointer transition">
-        <img src="https://placekitten.com/80/80" class="h-16 mb-2" />
-        <span class="text-sm font-semibold">Strict</span>
-      </div>
-      <div class="min-w-[120px] h-[140px] flex flex-col items-center justify-center rounded-2xl shadow-md p-3 bg-blue-400 text-white cursor-pointer">
-        <img src="https://placekitten.com/81/80" class="h-16 mb-2" />
-        <span class="text-sm font-semibold">Kind</span>
-      </div>
-      <div class="min-w-[120px] h-[140px] flex flex-col items-center justify-center rounded-2xl shadow-md p-3 bg-white hover:bg-blue-400 hover:text-white cursor-pointer transition">
-        <img src="https://placekitten.com/82/80" class="h-16 mb-2" />
-        <span class="text-sm font-semibold">Funny</span>
-      </div>
-    </div>
-
-    <!-- Fixed Ammachi Display -->
-    <div class="w-full flex justify-center items-center mb-4">
-      <img src="https://placekitten.com/200/200" class="h-48 md:h-60 object-contain" />
-    </div>
-
-    <!-- Mood Level Bar -->
-    <div class="w-full max-w-md mx-auto flex items-center justify-between bg-white p-4 rounded-xl shadow mb-4">
-      <span class="font-semibold">Mood Level</span>
-      <div class="flex-1 h-4 mx-4 rounded-full bg-blue-100 overflow-hidden">
-        <div class="h-full bg-blue-600 transition-all" style="width: 75%"></div>
-      </div>
-      <span>75%</span>
-    </div>
-
-    <!-- Chat Section -->
-    <div class="w-full max-w-2xl mx-auto bg-white p-6 rounded-3xl shadow-xl relative overflow-hidden mb-6">
-      <div class="space-y-4 max-h-[300px] overflow-y-auto pr-2">
-        <div class="max-w-[80%] px-4 py-2 rounded-2xl text-sm bg-yellow-100 self-start mr-auto">
-          Did you eat properly today?
-        </div>
-        <div class="max-w-[80%] px-4 py-2 rounded-2xl text-sm bg-blue-100 self-end ml-auto">
-          Yes Ammachi 😄
-        </div>
-      </div>
-      <form class="flex items-center gap-2 mt-4">
-        <input
-          type="text"
-          class="flex-1 border rounded-full px-4 py-2 text-sm"
-          placeholder="Talk to Ammachi..."
-        />
-        <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-full text-sm">
-          Send
-        </button>
-      </form>
-    </div>
-
-    <!-- Quote Box -->
-    <div class="text-center">
-      <div class="text-lg italic font-medium text-blue-800">
-        “Discipline is love in disguise.”
-      </div>
-    </div>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <label id="countlabel">0</label><br>
+  <div id="btncontainer">
+    <button id="decbtn">decrease</button>
+    <button id="re">reset</button>
+    <button id="incbtn">increase</button>
+  </div>
+  
+</body>
 </html>
