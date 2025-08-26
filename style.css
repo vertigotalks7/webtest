@@ -4,3 +4,8 @@
   font-size: 100px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+#btncontainer{
+  text-align: center;
+  border: 50px;
+}
